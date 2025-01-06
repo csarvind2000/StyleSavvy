@@ -1,5 +1,5 @@
 
-# StyleSavvy: AI-Powered Fashion Stylist
+# StyleSavvy: Multi-Modal AI-Powered Fashion Stylist Recommendation
 
 StyleSavvy is an AI-powered fashion assistant designed to help users discover trendy outfit recommendations and find matching styles. The app utilizes advanced AI models, including OpenAI's GPT-4 and image search capabilities with ChromaDB, to provide personalized suggestions based on text or images.
 
@@ -94,7 +94,8 @@ The app will launch on `http://localhost:7860` in your web browser.
 
 ```
 .
-├── app.py                # Main application file
+├── stylesavvy2.py                # Main application file text-image & image-image RAG
+├── stylesavvy.py                # Main application file text-image RAG
 ├── dataset/              # Folder for storing dataset images
 ├── data/                 # Folder for ChromaDB storage
 ├── requirements.txt      # Python dependencies
