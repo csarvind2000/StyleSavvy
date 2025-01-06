@@ -63,7 +63,7 @@ HF_TOKEN=your_huggingface_api_token
 Start the Gradio app:
 
 ```bash
-python app.py
+python stylesavvy2.py
 ```
 
 The app will launch on `http://localhost:7860` in your web browser.
