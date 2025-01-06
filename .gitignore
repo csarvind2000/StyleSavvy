@@ -1,0 +1,10 @@
+# Ignore environment files
+.env
+
+# Ignore dataset and ChromaDB folders
+dataset/
+data/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
